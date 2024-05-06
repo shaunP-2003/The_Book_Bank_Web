@@ -1,0 +1,107 @@
+/* Custom CSS styles 
+
+//The following method was taken from w3schools
+				// Author: w3schools
+				//Link: https://www.w3schools.com/css/
+
+*/
+
+.hero-text {
+    color: #fff; /* Set a lighter text color, such as white */
+    opacity: 0.9; /* Adjust the opacity value (0.9) to make the text more visible */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff; /* Set a darker color for the button text */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.hero-text a:hover {
+    background-color: #007bff; /* Set a darker color for the button background on hover */
+    color: #fff; /* Set a lighter color for the button text on hover */
+}
+
+.slogan {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.hero-image {
+    background-image: url("Images/Home-pic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-image::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value (0.6) to make it darker */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image img {
+    opacity: 0.6; /* Adjust the opacity value (0.6) to make it darker */
+}
+
+/*.col-md-4 img {
+	object-fit: cover;
+}*/
+
+.card {
+        height: 100%;
+    }
+
+    .card-img-top {
+        height: auto;
+        width: 100%;
+        object-fit: contain;;
+    }
+	
+	
+	/*Login */
+	.profile-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 165px;
+  margin-bottom:30px;
+  color: black;
+  font-size: 50px;
+}
+
+/*Nav bar*/
+.fa-shopping-cart{
+	color: white;
+  font-size: 25px;
+}

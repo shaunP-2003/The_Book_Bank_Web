@@ -1,0 +1,5 @@
+"ST100","Sydney","Lombard","Up","syds04@gmail.com","Leyley","Approved"
+"ST100002","Jane","Smith", "VC Durban North", "jane@gmail.com","Jane1234","Pending"
+"ST100003","Mike","Johnson","VC Cape Town", "mike@gmail.com","Mike1234","Pending"
+"ST100004","Sarah", "Williams","VC Cape Town","sarah@gmail.com","Sarah1234","Pending
+"ST100005","David","Brown","VC Pretoria","david@gmail.com","David1234","Pending"
